@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saving_goals"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Rule Buttons -->
+    <Button
+        android:id="@+id/spendLessRuleButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/spend_less_rule"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/twoWeekRuleButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/two_week_rule"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/spendLessRuleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/guiltyPleasureRuleButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/guilty_pleasure_rule"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/twoWeekRuleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/ifNotThisThenThatButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/if_not_this_then_that"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/guiltyPleasureRuleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Goal Buttons -->
+    <Button
+        android:id="@+id/buyCarButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_car"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ifNotThisThenThatButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buyIphoneButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_iphone"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/buyCarButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/vacationButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vacation"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/buyIphoneButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/housingButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/housing"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D54E1"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/vacationButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

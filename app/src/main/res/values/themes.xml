@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.BudgetE_Moble_App" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.Budget_E_Moble_App" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary branding color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <!-- Customize your theme here -->
     </style>
-
-    <style name="Theme.BudgetE_Moble_App" parent="Base.Theme.BudgetE_Moble_App" />
 </resources>

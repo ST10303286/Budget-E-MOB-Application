@@ -1,3 +1,315 @@
 <resources>
-    <string name="app_name">Budget-E_Moble_App</string>
+    <!-- Common Reusable Strings -->
+    <string name="app_name" translatable="false">Budget-E_Mobile_App</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="sign_up" translatable="false">Sign Up</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="my_account_title" translatable="false">My Account</string>
+    <string name="full_name" translatable="false">Full Name</string>
+    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="save_changes" translatable="false">Save Changes</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="or_login_with">Or login with</string>
+
+    <!-- Splash and Sign Up Strings -->
+    <string name="budget_e">BUDGET-E</string>
+    <string name="budget_with_ease">Budget With Ease</string>
+    <string name="get_started">Get Started</string>
+    <string name="app_logo_desc">App Logo</string>
+    <string name="create_account">Create an account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+
+    <!-- Onboarding Strings -->
+    <string name="onboarding_image_description">Rewards onboarding illustration</string>
+    <string name="achieve_rewards">Achieve Rewards</string>
+    <string name="achieve_rewards_description">Earn points and unlock achievements as you explore and interact. The more you play, the more you gain.</string>
+    <string name="onboarding2_image_description">Illustration for cloud sync</string>
+    <string name="seamless_cloud_sync">Seamless Cloud Sync</string>
+    <string name="cloud_sync_description">Enjoy automatic backups and instant access to your information wherever you are.</string>
+    <string name="onboarding3_image_description">Customised categories illustration</string>
+    <string name="customised_categories">Customised Categories</string>
+    <string name="customised_categories_description">Tailor your budget with categories that match your lifestyle. Personalise to stay organised.</string>
+
+    <!-- Congrats Screen Strings -->
+    <string name="congrats_image_description">Congratulations tick illustration</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="congratulations_description">Your account has been successfully created.</string>
+
+    <!-- Login Screen Strings -->
+    <string name="login">Login</string>
+    <string name="welcome_back_user">Welcome back, User</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">No Account</string>
+    <string name="google_login">Login with Google</string>
+    <string name="facebook_login">Login with Facebook</string>
+    <string name="apple_login">Login with Apple</string>
+
+    <!-- Forgot Password Screen Strings -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_subtitle">Enter your email address below and we will send you instructions to reset your password.</string>
+    <string name="send_instructions">Send Instructions</string>
+
+    <!-- Verify Code Screen Strings -->
+    <string name="verify_code_title">Verify Code</string>
+    <string name="verify_code_subtitle">Enter the 4-digit code sent to your email address.</string>
+    <string name="verify">Verify</string>
+    <string name="cancel">Cancel</string>
+    <string name="verify_code_image_description">Verification illustration</string>
+
+    <!-- OTP Digit Hints (Fixed here) -->
+    <string name="otp_digit_hint_0">Enter first digit</string>
+    <string name="otp_digit_hint_1">Enter second digit</string>
+    <string name="otp_digit_hint_2">Enter third digit</string>
+    <string name="otp_digit_hint_3">Enter fourth digit</string>
+
+    <!-- Reset Password Screen Strings -->
+    <string name="reset_password_title">Reset Password</string>
+    <string name="reset_password_subtitle">Set your new password for your account.</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="reset_password_button">Reset Password</string>
+
+    <!-- Profile Settings Screen Strings -->
+    <string name="user_name">Moosa Khoza</string>
+    <string name="my_account">My Account</string>
+    <string name="help_center">Help Center</string>
+    <string name="settings">Settings</string>
+    <string name="profile_image_description">User profile picture</string>
+    <string name="profile_bottom_text">
+        You joined Budget-E on June 2025. It’s been 1 month since then. Our mission is still the same — helping you better manage your finances with ease.
+    </string>
+
+    <!-- Help Center Screen Strings -->
+    <string name="help_center_title">Help Center</string>
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="customer_service">Customer Services</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+
+    <!-- Help Chat Screen Strings -->
+    <string name="customer_service_title">Customer Service</string>
+    <string name="video_call">Video Call</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="incoming_message">Hi, how are you today, are there any improvements?</string>
+    <string name="outgoing_message">It\'s gotten worse, I keep thinking weird things.</string>
+    <string name="message_hint">Message…</string>
+
+    <!-- Settings Screen Strings -->
+    <string name="settings_title">Settings</string>
+    <string name="general">General</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="notifications">Notifications</string>
+    <string name="security">Security</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_desc">Choose what data you share with us</string>
+    <string name="logout">Logout</string>
+    <string name="footer_text">Budget-E © 2025 v1.0</string>
+    <string name="arrow">Arrow Icon</string>
+
+
+    <!-- Home Screen Strings -->
+    <string name="greeting_moosa">Hi, Moosa Khoza</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="expense_button">Expense +</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="balance_amount">R2,548</string>
+    <string name="income_value">Income\nR1,840.50</string>
+    <string name="expenses_value">Expenses\nR2,500</string>
+    <string name="budget_spent">Budget Spent</string>
+    <string name="budget_spent_value">R900.00</string>
+    <string name="budget_left">Budget Left</string>
+    <string name="budget_left_value">R20.00</string>
+    <string name="track_spending">Track Spending</string>
+    <string name="track_spending_subtext">Improve your habits</string>
+
+
+    <!-- Expenses List -->
+    <string name="eating_out">Eating out</string>
+    <string name="family">Family</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="transportation">Transportation</string>
+    <string name="personal">Personal</string>
+    <string name="gift_donation">Gift &amp; Donation</string>
+    <string name="expense_amount">R800</string>
+
+    <!-- Bottom Navigation Tabs -->
+    <string name="overview">Overview</string>
+    <string name="budget">Budget</string>
+    <string name="savings">Savings</string>
+    <string name="rewards">Rewards</string>
+    <string name="profile">Profile</string>
+    <string name="nav_overview">Overview</string>
+    <string name="nav_budget">Budget</string>
+    <string name="nav_savings">Savings</string>
+    <string name="nav_rewards">Rewards</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Add Expense Screen -->
+    <string name="add_expense_title">Add Expense</string>
+    <string name="history">History</string>
+    <string name="label_name">Name</string>
+    <string name="label_amount_expense">Amount</string>
+    <string name="label_date">Date</string>
+    <string name="label_invoice">Invoice</string>
+    <string name="label_category_type">Category Type</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_amount_expense">Enter Amount</string>
+    <string name="hint_date">Select Date</string>
+    <string name="attach_invoice">Attach Invoice</string>
+    <string name="add_expense">Add Expense</string>
+
+    <!-- Spinner (Categories) -->
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Transaction History Screen Strings -->
+    <string name="transaction_history">Transaction History</string>
+    <string name="search_transactions">Search transactions</string>
+    <string name="transaction_list">List of recent transactions</string>
+    <string name="transaction_title_example">Groceries</string>
+    <string name="transaction_subtitle_example">Pick n Pay, 28 Apr 2025</string>
+    <string name="transaction_amount_example">-R450.00</string>
+
+
+
+
+    <!-- Budget Creation Screen -->
+    <string name="create_your_budget">Create your budget</string>
+    <string name="create_budget_subtext">Set the maximum you’d like to spend each week or month? Type in the amount below</string>
+    <string name="label_budget_type">Type of Budget</string>
+    <string name="label_start_date">Cycle of budget</string>
+    <string name="label_end_date">Cycle of budget</string>
+    <string name="label_amount">Amount</string>
+    <string name="label_category">Category</string>
+    <string name="hint_start_date">Pick a start date</string>
+    <string name="hint_end_date">Pick an end date</string>
+    <string name="hint_amount_budget">Select an amount</string>
+    <string name="create_budget">Create Budget</string>
+
+    <!-- Spinner Options -->
+    <string-array name="budget_types">
+        <item>Monthly Budget</item>
+        <item>Weekly Budget</item>
+    </string-array>
+    <string-array name="budget_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Tic Tac Toe screen Strings -->
+    <string name="tic_tac_toe_game">Tic Tac Toe</string>
+
+
+    <string name="tic_tac_toe_title">Tic Tac Toe</string>
+    <string name="game_not_started">Game not started</string>
+    <string name="start_game">Start Game</string>
+
+
+    <!-- Game Cell Descriptions -->
+    <string name="cell_0">Game cell 0</string>
+    <string name="cell_1">Game cell 1</string>
+    <string name="cell_2">Game cell 2</string>
+    <string name="cell_3">Game cell 3</string>
+    <string name="cell_4">Game cell 4</string>
+    <string name="cell_5">Game cell 5</string>
+    <string name="cell_6">Game cell 6</string>
+    <string name="cell_7">Game cell 7</string>
+    <string name="cell_8">Game cell 8</string>
+
+    <!-- Savings Dashboard Screen Strings -->
+    <string name="active_savings">Active Savings</string>
+    <string name="goal_title">Cape Town Road Trip</string>
+    <string name="goal_amount">R15,000</string>
+    <string name="goal_progress">30% of 100% has been achieved</string>
+    <string name="savings_title">Savings</string>
+    <string name="plan_title">Plan Your Future!</string>
+    <string name="plan_description">Let’s create a brand new savings target for your awesome future!</string>
+    <string name="create_now">Create Now</string>
+    <string name="plan_image">Savings target illustration</string>
+
+    <!-- Saving Goals Screen -->
+    <string name="saving_goals_image">Savings goal illustration</string>
+    <string name="pick_rule_type">Pick a Rule Type</string>
+    <string name="spend_less_rule">Spend Less Rule</string>
+    <string name="two_week_rule">2 Week Rule</string>
+    <string name="guilty_pleasure_rule">Guilty Pleasure Rule</string>
+    <string name="if_not_this_then_that">IF NOT THIS THEN THAT Rule</string>
+    <string name="long_term_financial_goals">Long-term Financial Goals</string>
+    <string name="buy_car">Buy a new car</string>
+    <string name="buy_iphone">Buy a new iPhone</string>
+    <string name="vacation">Vacation</string>
+    <string name="housing">Housing</string>
+    <string name="saving_goals">Saving goals</string>
+    <string name="create_your_rule">Create your Rule</string>
+    <string name="create_rule">Create Rule</string>
+    <string name="category_spend_less">Category: Spend Less Rule</string>
+    <string name="buy_less_coffee">Buy less coffee</string>
+    <string name="label_spend_less_than">Spend less than</string>
+    <string name="label_at">At</string>
+    <string name="label_duration">Duration</string>
+    <string name="label_toward">Toward</string>
+    <string name="hint_amount">Enter the amount</string>
+    <string name="hint_location">Enter the location</string>
+    <string name="hint_date_range">Enter the date range</string>
+    <string name="hint_long_term_goal">Enter the long term goal to put it towards</string>
+
+    <!-- Reward Screen Strings -->
+    <string name="coin_icon">Coin icon</string>
+    <string name="want_extra_points">Want to Earn Extra Points?</string>
+    <string name="games_available">Games available this week</string>
+    <string name="see_all">See All</string>
+    <string name="free_member">For all members</string>
+    <string name="premium_member">For platinum member</string>
+    <string name="game_tic_tac_toe">Tic Tac Toe</string>
+    <string name="game_memory">Test Your Memory</string>
+    <string name="coin_icon_desc">Coin icon</string>
+    <string name="earn_points_title">Want to Earn Extra Points?</string>
+    <string name="games_this_week">Games available this week</string>
+    <string name="discount_10">10% discount</string>
+    <string name="discount_25">25% discount</string>
+
+    <!-- Notifications Screen -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_subtitle">Manage your notification preferences</string>
+    <string name="enable_push_notifications">Enable Push Notifications</string>
+    <string name="enable_email_notifications">Enable Email Notifications</string>
+
+    <!-- Privacy Policy Screen -->
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_content">
+        This app collects and uses personal information in accordance with our privacy policy.
+        By using this app, you agree to the collection and use of your data as described herein.
+        1. Information Collection:
+        - We collect data such as device information, usage data, and account details.
+        2. Data Usage:
+        - Your data is used to improve app functionality, personalize content, and provide support.
+        3. Data Sharing:
+        - We do not share your data with third parties unless required by law.
+        4. Security:
+        - We implement industry-standard security measures to protect your data.
+        For more details, please contact us at support@example.com.
+    </string>
+    <string name="my_account_image_description"><![CDATA[<string name=\"my_account_image_description\">User profile image</string>]]></string>
+    <string name="play_"><![CDATA[" <string name=\"play_offline\">Play Offline</string>"]]></string>
+    <string name="play_offline"><![CDATA[<string name=\"play_offline\">Play Offline</string>]]></string>
+    <string name="turn_text"><![CDATA["   <string name=\"turn_text\">Turn %s</string>\n\n"]]></string>
+    <string name="score_text_template"><![CDATA[<string name=\"score_text_template\">X: %1$d | O: %2$d</string>\n]]></string>
+    <string name="reset_button"><![CDATA[<string name=\"reset_button\">Reset</string>\n]]></string>
+    <string name="winner_text"><![CDATA["    <string name=\"winner_text\">%s Wins!</string>"]]></string>
+    <string name="draw_text"><![CDATA["    <string name=\"draw_text\">Draw!</string>\n"]]></string>
+
 </resources>
